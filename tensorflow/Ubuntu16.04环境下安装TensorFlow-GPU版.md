@@ -42,7 +42,7 @@ export PATH=$CUDA_HOME/bin:$PATH
 cd /home/你的名字/Downloads/
 tar -zxvf ./cudnn-8.0-linux-x64-v6.0.tgz -C $CUDA_HOME/../
 ```
-###安装Tensorflow-GPU
+### 安装Tensorflow-GPU
 安装pip：  
 `apt install python-pip`
 更新pip：  
@@ -50,10 +50,10 @@ tar -zxvf ./cudnn-8.0-linux-x64-v6.0.tgz -C $CUDA_HOME/../
 安装tensorlfow-gpu：  
 `pip install tensorflow-gpu`
 ### 验证安装   
-启动python命令行：`python`； 
-引入`tensorflow：import tensorflow as tf`； 
-查看tensorflow版本：`tf.__version__`； 
-创建Session：`tf.Session()`，可以在设备名处看到你的显卡名称表示安装完成； 
+启动python命令行：`python`;  
+引入`tensorflow：import tensorflow as tf`;  
+查看tensorflow版本：`tf.__version__`;  
+创建Session：`tf.Session()`，可以在设备名处看到你的显卡名称表示安装完成；  
 退出python：`exit()`。
 
 
