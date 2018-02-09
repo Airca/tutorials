@@ -20,7 +20,7 @@ blacklist nvidiafb
 - CUDA8.0：[官网](https://developer.nvidia.com/cuda-80-ga2-download-archive)、[百度云](https://pan.baidu.com/s/1snsRaBN);
 - cuDNN6.0：[百度云](https://pan.baidu.com/s/1nwbNXg9);
 ### 安装CUDA
-下载文件存放于`/Downloads/`目录下;  
+下载文件存放于`/home/你的名字/Downloads/`目录下;  
 执行以下命令进行安装：  
 ```
 $ dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
@@ -36,7 +36,7 @@ export PATH=$CUDA_HOME/bin:$PATH
 输入命令`source /home/你的名字/.bashrc`使环境变量生效。  
 输入命令`nvcc -V`查看版本号以验证CUDA是否安装成功。 
 ### 安装cuDNN
-下载文件存放于/root/Download/目录下；  
+下载文件存放于/home/你的名字/Download/目录下；  
 执行一下命令完成安装：  
 ```
 cd /home/你的名字/Downloads/
@@ -49,11 +49,11 @@ tar -zxvf ./cudnn-8.0-linux-x64-v6.0.tgz -C $CUDA_HOME/../
 `pip install -U pip`
 安装tensorlfow-gpu：  
 `pip install tensorflow-gpu`
-###验证安装  
-启动python命令行：`python`；
-引入`tensorflow：import tensorflow as tf`；
-查看tensorflow版本：`tf.__version__`；
-创建Session：`tf.Session()`，可以在设备名处看到你的显卡名称表示安装完成；
+### 验证安装   
+启动python命令行：`python`； 
+引入`tensorflow：import tensorflow as tf`； 
+查看tensorflow版本：`tf.__version__`； 
+创建Session：`tf.Session()`，可以在设备名处看到你的显卡名称表示安装完成； 
 退出python：`exit()`。
 
 
