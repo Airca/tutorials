@@ -9,14 +9,14 @@
 |Class Name Completion|补全代码（没弄清楚与上一个区别）|alt+.|
 |Move up|向上移动整行代码|ctrl+up|
 |Move down|向下移动整行代码|ctrl+down|
-3. Ctrl+Alt+Down/Up 冲突问题
-  在ubuntu终端下执行命令
+3. Ctrl+Alt+Down/Up 冲突问题  
+  - 在ubuntu终端下执行命令
   ```
   gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "['']"
   gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up "['']"
-  ```
-  这时设置
+  ```  
+  - 这时设置  
   
-  |名字|用处|键位|
-  |:-|:-|:-|
-  |Duplicate Entire Lines|向下复制整行代码|Ctrl+Alt+Down|
+|名字|用处|键位|
+|:-|:-|:-|
+|Duplicate Entire Lines|向下复制整行代码|Ctrl+Alt+Down|
