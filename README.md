@@ -5,5 +5,7 @@
 - [Ubuntu16.04环境下安装TensorFlow-GPU版](https://github.com/junkfei/tutorials/blob/master/Tensorflow/Ubuntu16.04%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85TensorFlow-GPU%E7%89%88.md)
 ## Unbutu
 - [安装Unbutu后的配置工作](https://github.com/junkfei/tutorials/blob/master/Ubuntu/%E5%AE%89%E8%A3%85Unbutu%E5%90%8E%E7%9A%84%E9%85%8D%E7%BD%AE%E5%B7%A5%E4%BD%9C.md)
+- [安装crossover版的QQ](https://github.com/junkfei/tutorials/blob/master/Ubuntu/%E5%AE%89%E8%A3%85crossover%E7%89%88%E7%9A%84QQ.md)
+- [安装opencv3.4](https://github.com/junkfei/tutorials/blob/master/Ubuntu/%E5%AE%89%E8%A3%85opencv3.4.md)
 ## Windows
 - [Win10环境下安装MarkDown Pad 2](https://github.com/junkfei/tutorials/blob/master/Windows/Win10%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85MarkDown%20Pad%202.md)
