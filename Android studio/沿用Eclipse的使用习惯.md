@@ -5,7 +5,7 @@
 |名字|用处|键位|
 |:-|:-|:-|
 |show intention actions|设置快速修复错误提示代码|ctrl+1|
-|complete code|补全代码|alt+/|
+|Code-Completion-Basic|补全代码|alt+/|
 |Class Name Completion|补全代码（没弄清楚与上一个区别）|alt+.|
 |Move up|向上移动整行代码|ctrl+up|
 |Move down|向下移动整行代码|ctrl+down|
