@@ -23,9 +23,9 @@ blacklist nvidiafb
 - 下载文件存放于`/home/你的名字/Downloads/`目录下;  
 - 执行以下命令进行安装：  
 ```
-$ dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
-$ apt update
-$ apt install cuda
+$ sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
+$ sudo apt update
+$ sudo apt install cuda
 ```
 - 输入命令`vim /home/你的名字/.bashrc`编辑文件以配置环境变量，在打开的文件末尾追加以下内容：  
 ```  
